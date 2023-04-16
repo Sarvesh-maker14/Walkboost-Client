@@ -1,0 +1,26 @@
+.Hero {
+  height: 80vh;
+  background-image: url(../../assets/patternpad.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .hero-content {
+    height: 100%;
+    flex-direction: column;
+    background-color: rgba($color: #0000, $alpha: 0.3);
+    gap: 10px;
+
+    .heading {
+      color: white;
+      font-size: 3 rem;
+    }
+    .subheading {
+      color: whitesmoke;
+      font-size: 1.2rem;
+    }
+
+    .cta {
+      margin-top: 16px;
+    }
+  }
+}
